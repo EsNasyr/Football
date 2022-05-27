@@ -1,0 +1,182 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+.football-title{
+    color: white;
+}
+.football-desc{
+    color: white;
+    position: absolute;
+    left: 67%;
+}
+.h2 {
+    color: white;
+    text-align: center;
+}
+.container-ahbjsfauifvbsnljv{
+    width: 100%;
+    margin: 0 auto;
+}
+.str-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.str-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: cadetblue;
+    width: 430px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+.items{
+    background-color: #4aa3ff;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.item-img{
+    width: 61%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 35px;
+    top: 13px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 221px;
+}
+.item-desc{
+    position: relative;
+    left: 50%;
+    bottom: 91%;
+    color: #FFFFFF;
+}
+.item-link{
+    position: relative;
+    left: 50%;
+    bottom: 93%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.item-image{
+    width: 15px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.modal-btn{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 50%;
+    bottom: 92%;
+    cursor: pointer;
+}
+.modal{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.modal-content{
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.close-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.str1, .str2{
+    text-decoration: none;
+    color: white;
+}
+.str1, .str2:hover{
+    color: #FFFFFF;
+}
+
+
+.er-title{
+    text-align: center;
+}
+.er-desc{
+    font-size: 25px;
+}
+.owl-carousel{
+    display: flex;
+}
+.fa-play-circle{
+   position: relative;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -600%);
+    font-size: 50px;
+}
+.football{
+    width: 100%;
+    border-radius: 14px;
+    position: relative;
+}
+.movie__cover-darkened{
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    border-radius: 14px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: .6s;
+}
+.movie__cover-darkened:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: .6s;
+}
+.fancybox-content{
+    width: 300px;
+    height: 300px;
+    border-radius: 14px;
+}
+.PSG {
+    background-color: #3b5998;
+}
+.MancheaterUnited{
+    background-color: #ff102c;
+}
+.BayernMunchen{
+    background-color: darkred;
+}
+
+
